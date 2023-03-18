@@ -43,8 +43,26 @@ main img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;
+}
 
 .gallery_item img {
     width: 100%;
-    margin-top: 5px
+    margin-top: 5px;
     height: auto;
+
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    background: #EEEEEE;
+    padding: 20px;
+    margin-left: 10p;
+    margin-top: 10px;
+}
